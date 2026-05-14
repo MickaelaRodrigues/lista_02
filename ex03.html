@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.03</title>
+</head>
+<body>
+    <h2>Recomendação de clima</h2>
+    
+
+    Temperatura atual
+    <input id="ipt_temp" type="text"><br>
+
+    Condição do tempo
+    <input  id="ipt_cond" type="text"><br>
+
+    <button onclick="mostrar()">Ver dica</button>
+
+</body>
+    <script>
+        function mostrar(){
+            alert( "Está fazendo " + ipt_temp.value + " graus e o dia está " + ipt_cond.value)
+
+        }
+
+    </script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX - 02</title>
+</head>
+<body>
+    <h2>Sistema Cinema</h2>
+
+    Nome do filme:
+    <input id="ipt_nome" type="text"><br>
+
+    Horário da sessao:
+    <input id="ipt_horario" type="time"><br>
+
+    <button onclick="mostrar()">Confirmar Ingresso</button>
+    
+</body>
+    <script>
+        function mostrar(){
+            alert ("Ingresso confirmado para o filme " +ipt_nome.value + " no horário " + ipt_horario.value)
+
+        }
+
+
+    </script>
+
+</html>

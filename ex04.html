@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 04</title>
+</head>
+<body>
+    
+    <h2>Contador de passos</h2>
+
+    Distancia percorrida
+    <input id="ipt_distancia" type="text"><br>
+
+    Tempo Gasto
+    <input  id="ipt_tempo" type="text"><br>
+
+    <button onclick="mostrar()">Finalizar treino</button>
+
+    <div id="resultado"></div>
+
+</body>
+    <script>
+        function mostrar() {
+            
+            resultado.innerHTML=("Você percorreu!" + ipt_distancia.value + "<br>O seu tempo total de exercício foi de " + ipt_tempo.value + " minutos.")
+            
+
+        }
+        
+
+
+    </script>
+
+</html>

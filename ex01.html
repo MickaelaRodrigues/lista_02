@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pet</title>
+</head>
+<body>
+    Nome do Pet:
+    <input id="ipt_nomepet" type="text"><br>
+
+    Espécie:
+    <input id="ipt_especie" type="text"><br>
+
+    <button onclick="mostrar()">Identificar</button>
+    
+</body>
+    <script>
+        function mostrar(){
+            
+            alert( "O seu pet se chama " +ipt_nomepet.value + "e ele é um " + ipt_especie.value);
+        }
+    </script>
+
+</html>
